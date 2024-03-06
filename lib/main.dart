@@ -225,6 +225,10 @@ class _MyAppState extends State<MyApp> {
                             Text("Veronica Bartolome"),
                             Text("Kaice Sabroso"),
                             Text("Jimwelljan Bañas"),
+                            SizedBox(height: 16.0),
+                            Text(
+                              "https://github.com/ceciliasds/id-card.git",
+                            ),
                           ],
                         ),
                       ),
