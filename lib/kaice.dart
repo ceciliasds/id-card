@@ -55,14 +55,14 @@ class _KaiceState extends State<Kaice> {
               ),
               SizedBox(height: 40),
               Container(
-                width: 200,
-                height: 200,
-                padding: EdgeInsets.all(5), // Adjust the padding as needed for the border width
+                width: 220,
+                height: 220,
+                padding: EdgeInsets.all(5), 
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: Colors.blue, // Specify the border color
-                    width: 3.0, // Specify the border width
+                    color: Colors.blue, 
+                    width: 3.0, 
                   ),
                 ),
                 child: ClipOval(
