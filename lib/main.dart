@@ -204,7 +204,7 @@ class _MyAppState extends State<MyApp> {
                 children: [
                   Text("Veronica Bartolome"),
                   ClipOval(
-                    child: Image.asset('images/jim.jpg', height: 25),
+                    child: Image.asset('images/vero.png', height: 25),
                   ),
                 ],
               ),
