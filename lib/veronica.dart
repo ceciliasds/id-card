@@ -64,7 +64,7 @@ class _VeronicaState extends State<Veronica> {
                   ),
                 ),
                 child: ClipOval(
-                  
+                  child: Image.asset('images/vero.png', height: 200),
                 ),
               ),
               SizedBox(height: 15),
