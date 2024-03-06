@@ -55,6 +55,8 @@ class _JimwellState extends State<Jimwell> {
               ),
               SizedBox(height: 40),
               Container(
+                width: 220,
+                height: 220,
                 padding: EdgeInsets.all(5), // Adjust the padding as needed for the border width
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
@@ -64,7 +66,7 @@ class _JimwellState extends State<Jimwell> {
                   ),
                 ),
                 child: ClipOval(
-                  child: Image.asset('images/jim.jpg', height: 200),
+                  child: Image.asset('images/jim.jpg'),
                 ),
               ),
               SizedBox(height: 15),
