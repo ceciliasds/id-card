@@ -154,7 +154,7 @@ class _MyAppState extends State<MyApp> {
             ),
             ListTile(
               onTap: () {
-
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Aizareel()));
               },
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
