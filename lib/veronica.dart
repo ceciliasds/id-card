@@ -55,16 +55,18 @@ class _VeronicaState extends State<Veronica> {
               ),
               SizedBox(height: 40),
               Container(
-                padding: EdgeInsets.all(5), // Adjust the padding as needed for the border width
+                width: 220,
+                height: 220,
+                padding: EdgeInsets.all(5),
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: Colors.blue, // Specify the border color
-                    width: 3.0, // Specify the border width
+                    color: Colors.blue,
+                    width: 3.0,
                   ),
                 ),
                 child: ClipOval(
-                  child: Image.asset('images/vero.png', height: 200),
+                  child: Image.asset('images/vero.png'),
                 ),
               ),
               SizedBox(height: 15),
