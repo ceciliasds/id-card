@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'jimwell.dart';
 import 'aiza.dart';
 import 'kaice.dart';
+import 'veronica.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -181,7 +182,9 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Kaice()));
+              },
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -193,7 +196,9 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Veronica()));
+              },
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
