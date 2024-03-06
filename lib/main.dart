@@ -161,8 +161,19 @@ class _MyAppState extends State<MyApp> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Aizareel Mallari"),
-                  ClipOval(
-                    child: Image.asset('images/aiza.jpg', height: 25),
+                  Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 1.5,
+                      ),
+                    ),
+                    child: ClipOval(
+                      child: Image.asset('images/aiza.jpg'),
+                    ),
                   ),
                 ],
               ),
@@ -175,8 +186,19 @@ class _MyAppState extends State<MyApp> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Jimwelljan Bañas"),
-                  ClipOval(
-                    child: Image.asset('images/jim.jpg', height: 25),
+                  Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 1.5,
+                      ),
+                    ),
+                    child: ClipOval(
+                      child: Image.asset('images/jim.png'),
+                    ),
                   ),
                 ],
               ),
@@ -189,8 +211,19 @@ class _MyAppState extends State<MyApp> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Kaice Sabroso"),
-                  ClipOval(
-                    child: Image.asset('images/kaice.jpg', height: 25),
+                  Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 1.5,
+                      ),
+                    ),
+                    child: ClipOval(
+                      child: Image.asset('images/kaice.jpg'),
+                    ),
                   ),
                 ],
               ),
@@ -203,8 +236,19 @@ class _MyAppState extends State<MyApp> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Veronica Bartolome"),
-                  ClipOval(
-                    child: Image.asset('images/vero.png', height: 25),
+                  Container(
+                    width: 30,
+                    height: 30,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: Colors.black,
+                        width: 1.5,
+                      ),
+                    ),
+                    child: ClipOval(
+                      child: Image.asset('images/vero.png'),
+                    ),
                   ),
                 ],
               ),
