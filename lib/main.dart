@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'jimwell.dart';
 import 'aiza.dart';
+import 'kaice.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -186,7 +187,7 @@ class _MyAppState extends State<MyApp> {
                 children: [
                   Text("Kaice Sabroso"),
                   ClipOval(
-                    child: Image.asset('images/jim.jpg', height: 25),
+                    child: Image.asset('images/kaice.jpg', height: 25),
                   ),
                 ],
               ),
