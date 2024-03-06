@@ -55,8 +55,8 @@ class _AizareelState extends State<Aizareel> {
               ),
               SizedBox(height: 40),
               Container(
-                width: 200,
-                height: 200,
+                width: 220,
+                height: 220,
                 padding: EdgeInsets.all(5),
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
@@ -66,7 +66,7 @@ class _AizareelState extends State<Aizareel> {
                   ),
                 ),
                 child: ClipOval(
-                  child: Image.asset('images/aiza.jpg', height: 200),
+                  child: Image.asset('images/aiza.jpg'),
                 ),
               ),
               SizedBox(height: 15),
