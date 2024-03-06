@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Aizareel extends StatefulWidget {
-  const Aizareel({super.key});
+class Kaice extends StatefulWidget {
+  const Kaice({super.key});
 
   @override
-  State<Aizareel> createState() => _AizareelState();
+  State<Kaice> createState() => _KaiceState();
 }
 
-class _AizareelState extends State<Aizareel> {
+class _KaiceState extends State<Kaice> {
   int year = 1;
   @override
   Widget build(BuildContext context) {
@@ -64,26 +64,26 @@ class _AizareelState extends State<Aizareel> {
                   ),
                 ),
                 child: ClipOval(
-                  child: Image.asset('images/aiza.jpg', height: 200),
+                  child: Image.asset('images/kaice.jpg', height: 200),
                 ),
               ),
               SizedBox(height: 15),
               Text(
-                'Aizareel I.',
+                'KAICE DENCARL A.',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 29,
                 ),
               ),
               Text(
-                'MALLARI',
+                'SABROSO',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
                 ),
               ),
               Text(
-                'STUDENT NO. 21-C-4069',
+                'STUDENT NO. 21-C-3618',
                 style: TextStyle(
                   fontSize: 15,
                   letterSpacing: 4.0,
